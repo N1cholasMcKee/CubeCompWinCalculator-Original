@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19e63b2-4960-42a2-834c-c6f3d3c10952" name="Changes" comment="Fixed file structure" />
+    <list default="true" id="c19e63b2-4960-42a2-834c-c6f3d3c10952" name="Changes" comment="Added required files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Competitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Competitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DBReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DBReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -26,10 +36,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Nicholas/IdeaProjects/CubeCompCalculatorV-Original",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -61,6 +73,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -73,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667150437606</updated>
       <workItem from="1667150438929" duration="359000" />
-      <workItem from="1667150819451" duration="343000" />
+      <workItem from="1667150819451" duration="862000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed file structure">
       <created>1667150629540</created>
@@ -82,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667150629540</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added required files">
+      <created>1667151237708</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667151237708</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added required files">
+      <created>1667151309262</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667151309262</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,7 +123,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -101,6 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed file structure" />
+    <MESSAGE value="Added required files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added required files" />
   </component>
 </project>

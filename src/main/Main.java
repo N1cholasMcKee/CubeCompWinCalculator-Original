@@ -16,26 +16,25 @@ public class Main {
 
     public static void main(String[] args) {
 
-        WebScraper wS = new WebScraper(compname, event);
-        List<String> ids = wS.getCompetitors(people);
-        List<String> names = wS.getNames(people);
+        WebScraper ws = new WebScraper(compname, event);
+        List<String> ids = ws.getCompetitors(people);
+        List<String> names = ws.getNames(people);
         List<Competitor> competitors = new ArrayList<>();
-        for(int i = 0; i < people; i++) {
+        for (int i = 0; i < people; i++) {
             competitors.add(new Competitor(names.get(i), ids.get(i), filename, event, days, compFileName));
             System.out.println("Found results for " + names.get(i) + ".");
             competitors.get(i).calcvalues();
         }
         int resultstocalc = Integer.parseInt(eventtype.substring(2));
-        for(int i = 0; i < simulationsrun; i++) {
+        for (int i = 0; i < simulationsrun; i++) {
             List<Double> averages = new ArrayList<>();
-            for(int j = 0; j < people; j++) {
+            for (int j = 0; j < people; j++) {
                 List<Double> times = new ArrayList<>();
-                for(int k = 0; k < resultstocalc; k++) {
+                for (int k = 0; k < resultstocalc; k++) {
                     //calc results
 
                 }
             }
         }
     }
-
 }

@@ -1,6 +1,8 @@
 package src.main;
 
 import java.util.List;
+import java.util.ArrayList;
+import java.util.PrimitiveIterator;
 
 public class Competitor {
 

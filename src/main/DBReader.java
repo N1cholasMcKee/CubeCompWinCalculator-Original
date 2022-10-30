@@ -153,7 +153,7 @@ public class DBReader {
                 break;
         }
         if(year%4 == 0 && month > 2);
-            mDaysIntoYear++;
+        mDaysIntoYear++;
         int doty = mDaysIntoYear + day;
         return (int) ((((double) today.getYear()*365.25) + today.getDayOfYear()) - (((double) year*365.25) + doty));
     }
